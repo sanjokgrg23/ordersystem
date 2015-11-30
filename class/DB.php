@@ -1,6 +1,6 @@
 <?php
 class DB {
-	//DB class
+	//DB classsy classy
   public function connect() {
   	$servername = "localhost";
   	$dbname = "emp_db";
