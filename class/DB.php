@@ -1,5 +1,6 @@
 <?php
 class DB {
+  
 	//Well this is a DB class
   public function connect() {
   	$servername = "localhost";
