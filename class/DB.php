@@ -1,12 +1,12 @@
 <?php
 class DB {
   
-	//THE DB CLASS
+  //Well this is a DB class
   public function connect() {
-  	$servername = "localhost";
-  	$dbname = "emp_db";
-  	$user = "root";
-  	$pswd = "";
+    $servername = "localhost";
+    $dbname = "emp_db";
+    $user = "root";
+    $pswd = "";
   
   try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $user, $pswd);
